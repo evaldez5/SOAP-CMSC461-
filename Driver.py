@@ -13,6 +13,7 @@ def getConn():
 
 connection = getConn()
 cursor = connection.cursor()
+inputCommand = ""
 
 while inputCommand != "quit":
     inputCommand = input("What is next command? ")
