@@ -17,9 +17,9 @@ agencies and occupancy agreements.
 
 ## Database
 
-## ER Model
-![ER](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/relational%20schema.jpg)
 ## Relational Schema
-![Schema](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/SOAP%20ER_Diagram.jpg)
+![Schema](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/relational%20schema.jpg)
+## ER Diagram
+![ER](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/SOAP%20ER_Diagram.jpg)
 ## Libraries
 pymySQL
