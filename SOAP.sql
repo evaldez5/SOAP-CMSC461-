@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `SOAP` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
+CREATE DATABASE  IF NOT EXISTS `SOAP`;
 USE `SOAP`;
 -- MySQL dump 10.13  Distrib 8.0.13, for Win64 (x86_64)
 --
@@ -29,7 +29,7 @@ CREATE TABLE `office` (
   `city` varchar(30) NOT NULL,
   `sqrfeet` int(11) NOT NULL,
   PRIMARY KEY (`name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -55,7 +55,7 @@ CREATE TABLE `rental` (
   `office_name` varchar(30) NOT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `rental_office` FOREIGN KEY (`office_name`) REFERENCES `office` (`name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -81,7 +81,7 @@ CREATE TABLE `agency` (
   `city` varchar(30) NOT NULL,
   `phoneNo` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -106,7 +106,7 @@ CREATE TABLE `has` (
   PRIMARY KEY (`agency_id`, `rental_id`),
   CONSTRAINT `agency_has` FOREIGN KEY (`agency_id`) REFERENCES `agency` (`id`),
   CONSTRAINT `rental_has` FOREIGN KEY (`rental_id`) REFERENCES `rental` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
