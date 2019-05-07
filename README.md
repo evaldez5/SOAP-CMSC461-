@@ -6,7 +6,7 @@ Name:  Jack Allen
       Jack Wang  
       Lucy Xia
 
-#Overview
+## Overview
 Government agencies are assigned space by the General Services Administration (GSA).
 The GSA requires an occupancy agreement with each agency before formal space assignments
 are made, and before any allocation of funding for space is granted the customer agency. Each
@@ -15,4 +15,4 @@ contractual commitments for the agency's space request. The System for Occupancy
 Processing is an application that captures the relational model between GSA offices, customer
 agencies and occupancy agreements. 
 
-#Database
+## Database
