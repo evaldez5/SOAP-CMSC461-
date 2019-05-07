@@ -1,9 +1,9 @@
 # SOAP-CMSC461- Goup 8
-Name:  Jack Allen 
-      Ren Brown 
-      Angel Cheng 
-      Edwin Valdez 
-      Jack Wang  
+Name:  Jack Allen,
+      Ren Brown, 
+      Angel Cheng, 
+      Edwin Valdez, 
+      Jack Wang and  
       Lucy Xia
 
 ## Overview
