@@ -17,9 +17,11 @@ agencies and occupancy agreements.
 
 ## Database
 
-## ER Model
-![ER](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/relational%20schema.jpg)
 ## Relational Schema
-![Schema](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/SOAP%20ER_Diagram.jpg)
+![Schema](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/relational%20schema.jpg)
+## ER Diagram
+![ER](https://raw.githubusercontent.com/evaldez5/SOAP-CMSC461-/master/SOAP%20ER_Diagram.jpg)
 ## Libraries
 pymySQL
+## Operation
+In order to run the program, you will need to install the pymySQL library on the computer. Run the driver file in python and its will hange all the features and information for our MySQL database.
