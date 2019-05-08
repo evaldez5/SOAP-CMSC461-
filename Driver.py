@@ -20,14 +20,14 @@ def tableify(cursor):
 	col_names = [i[0] for i in cursor.description]
 	print("| ",end='')
 	for j in col_names:
-		print(j,end='|')
+		print(j,end=' | ')
 	print()#newline
 	print("------------------------------------")
 	#print the actual data
 	for x in rows:
 		print("| ",end='')
 		for y in x:
-			print(y,end=' |')
+			print(y,end=' | ')
 		print();
 		
 '''loads data from csv and inserts it into database'''		
